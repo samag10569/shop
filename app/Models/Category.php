@@ -9,4 +9,12 @@ class Category extends Model
    public function Kala(){
        return $this->hasMany('App\Models\Kala');
    }
+
+
+   public function categoryable(){
+    return $this->morphTo();
+}
+
+
+
 }

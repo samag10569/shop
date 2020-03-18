@@ -68,7 +68,7 @@
 						</div>
 					</div>
 					<div class="latest_product_inner row">
-
+                        {{$index=0}}
                         @foreach($all as $product )
 
 						<div class="col-lg-3 col-md-3 col-sm-6">
@@ -86,6 +86,7 @@
 								</div>
 								<a href="#">
                                 {{-- <h5>{{++$index}}</h5> --}}
+                                <h5>{{++$index}}</h5>
                                 <h4>{{$product->name}}</h4>
 								</a>
 								<h5>{{$product->price}}</h5>

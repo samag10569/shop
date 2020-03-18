@@ -42,7 +42,7 @@
 								<input type="text" class="form-control" id="name" name="email" placeholder="Username">
 							</div>
 							<div class="col-md-12 form-group">
-								<input type="text" class="form-control" id="name" name="password" placeholder="Password">
+								<input type="password" class="form-control" id="name" name="password" placeholder="Password">
 							</div>
 							<div class="col-md-12 form-group">
 								<div class="creat_account">
